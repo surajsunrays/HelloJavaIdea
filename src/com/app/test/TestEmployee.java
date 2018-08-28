@@ -1,4 +1,4 @@
-package com.app;
+package com.app.test;
 
 import com.app.model.Address;
 import com.app.model.Employee;
