@@ -10,6 +10,7 @@ public class TestEmployee {
     public static void main(String[] args) {
         Transaction tx = null;
         try(Session ss = HibernateUtil.getSf().openSession()) {
+/*
 
             tx = ss.beginTransaction();
 
@@ -34,9 +35,11 @@ public class TestEmployee {
             e.setEmpSal(2.2);
             e.getAddr().add(add1);
             e.getAddr().add(add2);
+*/
 
-            ss.save(e);
+//            ss.save(e);
 
+            Employee e = ss.get(Employee.class,10);
             tx.commit();
 
         }catch (Exception e)
