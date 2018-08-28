@@ -42,9 +42,12 @@ public class TestEmployee {
             Employee e = ss.get(Employee.class,10);
             tx.commit();
 
+            eroor happen because this.
+
         }catch (Exception e)
         {
-            tx.rollback();
+            //Removed exception occuring code..
+            //tx.rollback();
             System.out.println(e.getMessage());
         }
     }
