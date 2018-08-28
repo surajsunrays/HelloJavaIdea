@@ -42,7 +42,8 @@ public class TestEmployee {
             Employee e = ss.get(Employee.class,10);
             tx.commit();
 
-            eroor happen because this.
+          //  eroor happen because this.
+            // Error Line is removed.
 
         }catch (Exception e)
         {
